@@ -18,6 +18,16 @@ class LinkedList2Test {
 
     @org.junit.jupiter.api.Test
     void add() {
+        LinkedList2<Integer> list = new LinkedList2<>();
+        list.add(0);
+        list.add(1);
+        list.add(2);
+
+        assertEquals(3, list.size());
+        for (int i=0;i<list.size();i++)
+        {
+            assertEquals(i, list.get(i));
+        }
     }
 
     @org.junit.jupiter.api.Test
