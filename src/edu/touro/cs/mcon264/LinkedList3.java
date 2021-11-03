@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
 
-public class LinkedList2<T> implements List<T> {
+public class LinkedList3<T> implements List<T> {
 
     private Node<T> head = new Node<>(null,null);
     private int size;
